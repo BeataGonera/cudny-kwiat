@@ -13,7 +13,7 @@ const garamond = Cormorant_Garamond({
 export const Navigation = () => {
 	return (
 		<>
-			<div className="fixed top-0 hidden w-full justify-between p-10 lg:flex">
+			<div className="absolute top-0 hidden w-full justify-between p-10 lg:flex">
 				<nav
 					className={`flex gap-6 bg-none text-white ${garamond.className} h-9 text-base uppercase tracking-widest`}
 				>
